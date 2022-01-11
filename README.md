@@ -5,4 +5,4 @@ Make the bash script executable and run it
 ```
 chmod +x compile_install_vaultwarden.sh
 ./compile_install_vaultwarden.sh
-``
+```
