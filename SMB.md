@@ -13,7 +13,7 @@ sudo vim /etc/samba/smb.conf
 +++  
 [Backup]  
 comment = Backup Folder  
-path = /media/USBHDD2/shares  
+path = /media/USBHDD1/shares  
 valid users = @users  
 force group = users  
 create mask = 0660  
