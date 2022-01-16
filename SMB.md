@@ -36,8 +36,8 @@ sudo vim /etc/fstab
   
 crontab -e  
 +++  
-0 5 * * * rsync -av --delete /media/USBHDD1/shares /media/USBHDD2/shares/  
+0 5 * * * rsync -av --delete /media/USBHDD1/shares /media/USBHDD2/  
 +++  
   
-rsync -av --delete /media/USBHDD1/shares /media/USBHDD2/shares/  
+rsync -av --delete /media/USBHDD1/shares /media/USBHDD2/  
   
