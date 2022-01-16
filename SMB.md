@@ -5,7 +5,7 @@ sudo mkdir /media/usb
 sudo chown -R pi:pi /media/usb  
 sudo mount /dev/sda1 /media/usb -o uid=pi,gid=pi  
 +++  
-/dev/sda1 /media/usb vfat auto,nofail,noatime,users,rw,uid=pi,gid=pi 0 0  
+/dev/sda1 /media/usb ntfs auto,nofail,noatime,users,rw,uid=pi,gid=pi 0 0  
 +++  
 mkdir /media/usb/share  
   
